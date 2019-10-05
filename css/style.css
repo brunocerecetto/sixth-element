@@ -3,43 +3,43 @@
  * URL: https://GetTemplates.co
  */
 @font-face {
-  font-family: "Lato-Regular";
+  font-family: 'Lato-Regular';
   src: url(../fonts/Lato-Regular.ttf);
 }
 @font-face {
-  font-family: "Lato-Black";
+  font-family: 'Lato-Black';
   src: url(../fonts/Lato-Black.ttf);
 }
 @font-face {
-  font-family: "Lato-Bold";
+  font-family: 'Lato-Bold';
   src: url(../fonts/Lato-Bold.ttf);
 }
 @font-face {
-  font-family: "Lato-Light";
+  font-family: 'Lato-Light';
   src: url(../fonts/Lato-Light.ttf);
 }
 @font-face {
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
   src: url(../fonts/Lato-Medium.ttf);
 }
 @font-face {
-  font-family: "Lato-Semibold";
+  font-family: 'Lato-Semibold';
   src: url(../fonts/Lato-Semibold.ttf);
 }
 @font-face {
-  font-family: "OpenSans-Bold";
+  font-family: 'OpenSans-Bold';
   src: url(../fonts/OpenSans-Bold.ttf);
 }
 @font-face {
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   src: url(../fonts/OpenSans-Semibold.ttf);
 }
 p {
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   color: #666666;
   font-size: 18px;
 }
@@ -47,7 +47,8 @@ p {
 body {
   overflow: hidden;
   overflow-y: auto;
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
+  background-color: #1b1b1b;
 }
 
 @media (min-width: 1200px) {
@@ -60,12 +61,12 @@ body {
 }
 #gtco-main-nav .navbar-brand {
   font-size: 36px;
-  font-family: "Lato-Black";
+  font-family: 'Lato-Black';
   text-transform: uppercase;
-  background: -webkit-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -ms-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -moz-linear-gradient(left, #1d3ede, #01e6f8);
-  background: -o-linear-gradient(left, #1d3ede, #01e6f8);
+  background: -webkit-linear-gradient(left, #c94f25, #ffa500);
+  background: -ms-linear-gradient(left, #c94f25, #ffa500);
+  background: -moz-linear-gradient(left, #c94f25, #ffa500);
+  background: -o-linear-gradient(left, #c94f25, #ffa500);
   -webkit-background-clip: text;
   -ms-background-clip: text;
   -o-background-clip: text;
@@ -73,10 +74,12 @@ body {
   -ms-text-fill-color: transparent;
   -o-text-fill-color: transparent;
 }
-#gtco-main-nav .bar1, #gtco-main-nav .bar2, #gtco-main-nav .bar3 {
+#gtco-main-nav .bar1,
+#gtco-main-nav .bar2,
+#gtco-main-nav .bar3 {
   width: 25px;
   height: 2px;
-  background-color: #fff;
+  background-color: white;
   margin: 5px 0;
   transition: 0.4s;
   display: block;
@@ -94,44 +97,28 @@ body {
   transform: rotate(46deg) translate(-4px, -8px);
 }
 #gtco-main-nav .navbar-nav li a {
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   font-size: 18px;
   color: #666666;
   padding: 5px 15px !important;
   text-transform: uppercase;
 }
-#gtco-main-nav form a {
-  font-family: "OpenSans-Semibold";
-  font-size: 18px;
-  color: #fff;
-  padding: 5px 25px;
-  border-radius: 20px;
-  border-width: 2px;
-}
-#gtco-main-nav form a.btn-info {
-  background: #01e6f8;
-  border-color: #01e6f8;
-}
-#gtco-main-nav form a.btn-outline-dark {
-  border-color: #fff;
-  background-color: transparent;
-}
 @media (max-width: 991px) {
   #gtco-main-nav form a.btn-outline-dark {
-    border-color: #1d3ede;
-    color: #1d3ede;
+    border-color: #c94f25;
+    color: #c94f25;
   }
 }
 #gtco-main-nav::after {
   position: absolute;
-  content: "";
+  content: '';
   height: 600px;
   width: 900px;
-  background-image: -webkit-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -moz-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -ms-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: -o-linear-gradient(-220deg, #1d3ede, #01e6f8);
-  background-image: linear-gradient(-220deg, #1d3ede, #01e6f8);
+  background-image: -webkit-linear-gradient(-220deg, #c94f25, #ffa500);
+  background-image: -moz-linear-gradient(-220deg, #c94f25, #ffa500);
+  background-image: -ms-linear-gradient(-220deg, #c94f25, #ffa500);
+  background-image: -o-linear-gradient(-220deg, #c94f25, #ffa500);
+  background-image: linear-gradient(-220deg, #c94f25, #ffa500);
   left: 49.5%;
   top: -50px;
   z-index: -1;
@@ -163,14 +150,14 @@ body {
 }
 #gtco-main-nav::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 590px;
   width: 930px;
-  background-image: -webkit-linear-gradient(to right, #e8eefc, #e6fafe);
-  background-image: -moz-linear-gradient(to right, #e8eefc, #e6fafe);
-  background-image: -ms-linear-gradient(to right, #e8eefc, #e6fafe);
-  background-image: -o-linear-gradient(to right, #e8eefc, #e6fafe);
-  background-image: linear-gradient(to right, #e8eefc, #e6fafe);
+  background-image: -webkit-linear-gradient(to right, #666666, #1b1b1b);
+  background-image: -moz-linear-gradient(to right, #666666, #1b1b1b);
+  background-image: -ms-linear-gradient(to right, #666666, #1b1b1b);
+  background-image: -o-linear-gradient(to right, #666666, #1b1b1b);
+  background-image: linear-gradient(to right, #666666, #1b1b1b);
   left: 47.5%;
   top: -25px;
   z-index: -1;
@@ -201,12 +188,16 @@ body {
   }
 }
 
-.gtco-banner-area a, .gtco-feature a, .gtco-features a, .gtco-news .owl-carousel .card a, #gtco-footer .submit-button {
-  background-image: -moz-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
-  background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
-  background-image: -ms-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+.gtco-banner-area a,
+.gtco-feature a,
+.gtco-features a,
+.gtco-news .owl-carousel .card a,
+#gtco-footer .submit-button {
+  background-image: -moz-linear-gradient(0deg, #c94f25 0%, #ffa500 100%);
+  background-image: -webkit-linear-gradient(0deg, #c94f25 0%, #ffa500 100%);
+  background-image: -ms-linear-gradient(0deg, #c94f25 0%, #ffa500 100%);
   font-size: 18px;
-  font-family: "OpenSans-Semibold";
+  font-family: 'OpenSans-Semibold';
   color: #fff;
   border-radius: 50px;
   padding: 5px 30px;
@@ -215,21 +206,26 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
-.gtco-banner-area a .fa, .gtco-feature a .fa, .gtco-features a .fa, .gtco-news .owl-carousel .card a .fa, #gtco-footer .submit-button .fa {
+.gtco-banner-area a .fa,
+.gtco-feature a .fa,
+.gtco-features a .fa,
+.gtco-news .owl-carousel .card a .fa,
+#gtco-footer .submit-button .fa {
   background: #fff;
   border-radius: 50%;
   height: 32px;
   width: 32px;
-  color: #37eaf9;
+  color: #ffa500;
   font-size: 22px;
   text-align: center;
   padding-top: 5px;
   margin-left: 15px;
 }
 
-.gtco-feature h2, .gtco-features h2 {
-  font-family: "Lato-Regular";
-  color: #000000;
+.gtco-feature h2,
+.gtco-features h2 {
+  font-family: 'Lato-Regular';
+  color: white;
   font-size: 36px;
   margin-bottom: 30px;
 }
@@ -244,14 +240,14 @@ body {
   min-height: 500px;
 }
 .gtco-banner-area h1 {
-  font-family: "Lato-Light";
+  font-family: 'Lato-Light';
   font-size: 48px;
-  color: #000000;
+  color: white;
   max-width: 500px;
   margin-top: 70px;
 }
 .gtco-banner-area h1 span {
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
 }
 @media (max-width: 1199px) {
   .gtco-banner-area h1 {
@@ -394,9 +390,9 @@ body {
   transform: rotate(-20deg);
 }
 .gtco-features .col-lg-8 .card h3 {
-  font-family: "Lato-Regular";
+  font-family: 'Lato-Regular';
   font-size: 24px;
-  color: #1d3ede;
+  color: #c94f25;
 }
 .gtco-features .col-lg-8 .card p {
   font-size: 16px;
@@ -425,7 +421,7 @@ body {
 }
 .gtco-numbers-block #custom-map::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 100px;
   width: 100%;
   border: 2px solid red;
@@ -465,7 +461,7 @@ body {
   }
 }
 .gtco-numbers-block h5 {
-  font-family: "Lato-Bold";
+  font-family: 'Lato-Bold';
   font-size: 60px;
 }
 @media (max-width: 1299px) {
@@ -485,7 +481,7 @@ body {
   }
 }
 .gtco-numbers-block p {
-  font-family: "Lato-Semibold";
+  font-family: 'Lato-Semibold';
   font-size: 24px;
   color: #fff;
 }
@@ -525,7 +521,7 @@ body {
   }
 }
 .gtco-testimonials h2 {
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
   font-size: 36px;
   text-align: center;
   color: #333333;
@@ -547,14 +543,14 @@ body {
   border-radius: 50%;
   display: block;
   background: #fff;
-  border: 2px solid #01e6f8;
+  border: 2px solid #ffa500;
   margin: 0 5px;
 }
 .gtco-testimonials .owl-dots .active {
   box-shadow: none;
 }
 .gtco-testimonials .owl-dots .active span {
-  background: #01e6f8;
+  background: #ffa500;
   box-shadow: none;
   height: 12px;
   width: 12px;
@@ -571,20 +567,20 @@ body {
   max-width: 100px;
   border-radius: 50%;
   margin: 0 auto;
-  border: 5px solid #1d3ede;
+  border: 5px solid #c94f25;
   width: 100px;
   height: 100px;
 }
 .gtco-testimonials .card h5 {
-  color: #1d3ede;
+  color: #c94f25;
   font-size: 21px;
   line-height: 1.3;
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
 }
 .gtco-testimonials .card h5 span {
   font-size: 18px;
   color: #666666;
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
 }
 .gtco-testimonials .card p {
   font-size: 18px;
@@ -630,13 +626,13 @@ body {
   padding: 3px;
 }
 .gtco-features-list .media-body {
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   font-size: 16px;
   color: #666666;
   padding-right: 20px;
 }
 .gtco-features-list .media-body h5 {
-  font-family: "Lato-Semibold";
+  font-family: 'Lato-Semibold';
   margin-bottom: 20px !important;
   font-size: 22px;
 }
@@ -662,7 +658,7 @@ body {
 }
 .gtco-news h2 {
   font-size: 36px;
-  font-weight: "Lato-Medium";
+  font-weight: 'Lato-Medium';
   text-align: center;
   margin-bottom: 50px;
 }
@@ -677,7 +673,8 @@ body {
     display: none !important;
   }
 }
-.gtco-news .owl-carousel .owl-nav .owl-prev, .gtco-news .owl-carousel .owl-nav .owl-next {
+.gtco-news .owl-carousel .owl-nav .owl-prev,
+.gtco-news .owl-carousel .owl-nav .owl-next {
   font-size: 120px;
   color: #666666;
   position: absolute;
@@ -696,7 +693,7 @@ body {
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.08);
 }
 .gtco-news .owl-carousel .card h5 {
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
   font-size: 22px;
   color: #333333;
   margin-bottom: 20px;
@@ -723,12 +720,13 @@ body {
   padding-bottom: 20px;
 }
 #gtco-footer h4 {
-  font-family: "Lato-Medium";
+  font-family: 'Lato-Medium';
   font-size: 24px;
-  color: #1d3ede;
+  color: #c94f25;
   margin-bottom: 30px;
 }
-#gtco-footer input, #gtco-footer textarea {
+#gtco-footer input,
+#gtco-footer textarea {
   background-color: white;
   box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.08);
   border-radius: 50px;
@@ -740,9 +738,16 @@ body {
   padding-left: 30px;
   color: #000;
 }
-#gtco-footer input::-webkit-input-placeholder, #gtco-footer input::-moz-placeholder, #gtco-footer input:-ms-input-placeholder, #gtco-footer input:-moz-placeholder, #gtco-footer textarea::-webkit-input-placeholder, #gtco-footer textarea::-moz-placeholder, #gtco-footer textarea:-ms-input-placeholder, #gtco-footer textarea:-moz-placeholder {
+#gtco-footer input::-webkit-input-placeholder,
+#gtco-footer input::-moz-placeholder,
+#gtco-footer input:-ms-input-placeholder,
+#gtco-footer input:-moz-placeholder,
+#gtco-footer textarea::-webkit-input-placeholder,
+#gtco-footer textarea::-moz-placeholder,
+#gtco-footer textarea:-ms-input-placeholder,
+#gtco-footer textarea:-moz-placeholder {
   color: #999999;
-  font-family: "OpenSans-Regular";
+  font-family: 'OpenSans-Regular';
   font-size: 18px;
 }
 #gtco-footer textarea {
@@ -752,11 +757,13 @@ body {
   padding-right: 20px;
   resize: none;
 }
-#gtco-footer .company-nav, #gtco-footer .services-nav {
-  font-family: "OpenSans-Regular";
+#gtco-footer .company-nav,
+#gtco-footer .services-nav {
+  font-family: 'OpenSans-Regular';
   font-size: 20px;
 }
-#gtco-footer .company-nav a, #gtco-footer .services-nav a {
+#gtco-footer .company-nav a,
+#gtco-footer .services-nav a {
   color: #666666;
   margin: 0;
   padding: 0;
@@ -777,7 +784,7 @@ body {
   margin-top: 90px;
 }
 #gtco-footer .col-12 p {
-  font-family: "Lato-Regular";
+  font-family: 'Lato-Regular';
   font-size: 18px;
   color: #999999;
 }
