@@ -57,7 +57,7 @@ body {
   }
 }
 #gtco-main-nav {
-  padding: 20px 0;
+  padding: 5px 0;
 }
 #gtco-main-nav .navbar-brand {
   font-size: 36px;
@@ -74,6 +74,11 @@ body {
   -ms-text-fill-color: transparent;
   -o-text-fill-color: transparent;
 }
+
+#gtco-main-nav .navbar-brand img {
+  width: 8rem;
+}
+
 #gtco-main-nav .bar1,
 #gtco-main-nav .bar2,
 #gtco-main-nav .bar3 {
@@ -236,7 +241,6 @@ body {
 }
 
 .gtco-banner-area {
-  margin-top: 20px;
   min-height: 500px;
 }
 .gtco-banner-area h1 {
