@@ -270,15 +270,14 @@ body {
   padding-right: 5px;
 }
 .gtco-banner-area .col-md-6 .card .card-img-top {
-  max-width: 430px;
+  max-width: 510px;
   margin: 0 auto;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-right: 0;
 }
 @media (max-width: 1400px) {
   .gtco-banner-area .col-md-6 .card .card-img-top {
-    max-width: 400px;
-    margin-top: 20px;
+    max-width: 440px;
     margin-right: auto;
   }
 }
