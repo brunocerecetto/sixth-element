@@ -133,7 +133,7 @@ body {
   padding-right: 5px;
   text-decoration: none !important;
 }
-.gtco-banner-area iframe {
+.gtco-banner-area video {
   border-radius: 60px;
   margin-top: 45px;
   width: 100%;
@@ -142,13 +142,13 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .gtco-banner-area iframe {
+  .gtco-banner-area video {
     height: 366px;
   }
 }
 
 @media (max-width: 500px) {
-  .gtco-banner-area iframe {
+  .gtco-banner-area video {
     height: 280px;
     width: 90%;
   }
