@@ -146,6 +146,13 @@ body {
     height: 366px;
   }
 }
+
+@media (max-width: 500px) {
+  .gtco-banner-area iframe {
+    height: 280px;
+    width: 90%;
+  }
+}
 .gtco-banner-area a .fa,
 .gtco-feature a .fa,
 .gtco-features a .fa,
