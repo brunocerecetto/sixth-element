@@ -254,7 +254,7 @@ body {
 .gtco-feature .card .squircle {
   width: 100%;
   height: 450px;
-  background: url(../images/1.jpg) center/cover, #aaa;
+  background: url(../images/learn-img.jpg) center/cover, #aaa;
   clip-path: url(#clip-path);
   background-position-x: -50px;
 }
