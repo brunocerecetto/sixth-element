@@ -1,7 +1,11 @@
 {
   "name": "sixth-element",
   "version": "0.1.0",
-  "private": true,
+  "author": {
+    "name" : "Bruno Cerecetto",
+    "email" : "bruno.cerecetto@gmail.com",
+    "url" : "https://soybruno.com/"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
