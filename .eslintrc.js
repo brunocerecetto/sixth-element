@@ -9,6 +9,7 @@ module.exports = {
     'prettier',
     'prettier/vue',
     '@vue/typescript',
+    'plugin:vue-a11y/base'
   ],
   plugins: ['vue'],
 }
